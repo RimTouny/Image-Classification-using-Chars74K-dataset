@@ -49,7 +49,7 @@ Specifically focusing on characters '4,' 'A,' 'u,' and digit 'H,' located in sub
            <img src="https://github.com/RimTouny/Image-Classification-using-Chars74K-dataset/assets/48333870/a86d6936-e5c7-428a-a13a-7e49589c0306"/>
       </p>
 
-     + Tratified Sampling
+     + Stratified Sampling
        ```python
        Accuracy for Training data: 99.17%
        Recall for Training data: 100.00%
@@ -93,7 +93,7 @@ Specifically focusing on characters '4,' 'A,' 'u,' and digit 'H,' located in sub
            <img src="https://github.com/RimTouny/Image-Classification-using-Chars74K-dataset/assets/48333870/815882b5-6b84-49b6-a03e-9ca765fdb46a)"/>
       </p>
 
-     + Tratified Sampling
+     + Stratified Sampling
        ```python
        Accuracy: 98.81
        Average Recall: 98.71
