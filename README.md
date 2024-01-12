@@ -9,9 +9,9 @@ Employing advanced techniques, the project seamlessly integrates binary and mult
 ## Image Classification problem
 Character Classification using Binary and Multiclass classifiers in computer vision: 4’,’A’ // 4’,’A’,’u’ and ’H’ .
 
-### Independent Variables:
+### Exploring Data:
 The dataset utilized in this project is Chars74K, containing images of English alphabet characters. Accessible from [Chars74K dataset](http://www.ee.surrey.ac.uk/CVSSP/demos/chars74k/),the dataset is stored in the [EnglishImg.tgz]() archive. Upon extraction, it reveals a 'Bmp' folder within 'EnglishImg/English/Img/GoodImg,' organized into 62 subdirectories for each character in the Latin alphabet and digits.
-Specifically focusing on characters '4,' 'A,' 'u,' and digit 'H,' located in subdirectories Sample005, Sample011, Sample057, and Sample009, respectively, the dataset presents partially preprocessed images. Images are cropped, but the quality of cropped images varies. The objective is to load these images into numpy matrices, adhering to the unmodified directory structure ('EnglishImg/English/Img/GoodImg/Bmp').
+Specifically focusing on characters '4,' 'A,' 'u,' and digit 'H,' located in subdirectories Sample005, Sample011, Sample057, and Sample018, respectively.
 
 ## **Key Tasks Undertaken**
 1. **Data Loading and Preprocessing:**
