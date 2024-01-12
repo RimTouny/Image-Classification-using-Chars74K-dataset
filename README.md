@@ -7,15 +7,16 @@ Employing advanced techniques, the project seamlessly integrates binary and mult
 
 
 ## Image Classification problem
-character classification using binary and multiclass classifiers in computer vision:4’,’A’,’u’ and ’H’ .
+Character Classification using Binary and Multiclass classifiers in computer vision: 4’,’A’ // 4’,’A’,’u’ and ’H’ .
 
 ### Independent Variables:
+The dataset utilized in this project is Chars74K, containing images of English alphabet characters. Accessible from [Chars74K dataset](http://www.ee.surrey.ac.uk/CVSSP/demos/chars74k/),the dataset is stored in the [EnglishImg.tgz]() archive. Upon extraction, it reveals a 'Bmp' folder within 'EnglishImg/English/Img/GoodImg,' organized into 62 subdirectories for each character in the Latin alphabet and digits.
+Specifically focusing on characters '4,' 'A,' 'u,' and digit 'H,' located in subdirectories Sample005, Sample011, Sample057, and Sample009, respectively, the dataset presents partially preprocessed images. Images are cropped, but the quality of cropped images varies. The objective is to load these images into numpy matrices, adhering to the unmodified directory structure ('EnglishImg/English/Img/GoodImg/Bmp').
 
 ## **Key Tasks Undertaken**
-
 1. **Data Loading and Preprocessing:**
    - Successfully uploaded the 'EnglishImg.tgz' file from Google Drive and extracted it to the 'EnglishImg' directory.
-   - Defined a helper function (`extract_and_map_number_to_label`) to map numeric labels to characters ('0' to '9', 'A' to 'Z', 'a' to 'z').
+   - Defined a helper function to map numeric labels to characters ('0' to '9', 'A' to 'Z', 'a' to 'z').
    - Loaded and preprocessed the images, resizing them to a common size (64x64) and converting them to grayscale.
 
 2. **Binary Classifiers:**
