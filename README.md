@@ -34,12 +34,33 @@ Specifically focusing on characters '4,' 'A,' 'u,' and digit 'H,' located in sub
    - Shuffled and split the data into 60% training, 20% validation, and 20% testing sets (both randomly and using stratified sampling).
    - Trained a logistic regression model for binary classification and evaluated its performance on training and testing data. Confusion matrices, accuracy, recall, precision, and  ROC curves were presented.
      + Randomly Spilting
+       ```python
+       Accuracy for Training data: 100.00%
+       Recall for Training data: 100.00%
+       Precision for Training data: 100.00%
+       ```
+       
+       ```python
+       Accuracy for Testing data: 90.91%
+       Recall for Testing data: 96.40%
+       Precision for Testing data: 93.86%
+       ```       
        <p align="center">
            <img src="https://github.com/RimTouny/Image-Classification-using-Chars74K-dataset/assets/48333870/a86d6936-e5c7-428a-a13a-7e49589c0306"/>
       </p>
 
      + Tratified Sampling
-       <p align="center">
+       ```python
+       Accuracy for Training data: 99.17%
+       Recall for Training data: 100.00%
+       ```
+    
+       ```python
+       Accuracy for Testing data: 90.91%
+       Recall for Testing data: 95.50%
+       Precision for Testing data: 94.64%
+       ```
+     <p align="center">
            <img src="https://github.com/RimTouny/Image-Classification-using-Chars74K-dataset/assets/48333870/0b5b8de5-90fe-4c42-9e53-b3782d7b7b9b"/>
       </p>
       
@@ -55,11 +76,37 @@ Specifically focusing on characters '4,' 'A,' 'u,' and digit 'H,' located in sub
    - Similar to binary classification, shuffled and split the data into 60% training, 20% validation, and 20% testing sets (both randomly and using stratified sampling).
    - Trained a logistic regression model for multiclass classification and evaluated its performance on training and testing data.  Confusion matrices, accuracy, recall, precision, and  ROC curves were presented.
      + Randomly Spilting
+       ```python
+       Accuracy: 99.60
+       Average Recall: 99.56
+       Average Precision: 99.85
+       F1 Score: 99.70
+       ```
+       
+       ```python
+       Accuracy: 58.33
+       Average Recall: 39.08
+       Average Precision: 37.92
+       F1 Score: 38.49
+       ```       
        <p align="center">
            <img src="https://github.com/RimTouny/Image-Classification-using-Chars74K-dataset/assets/48333870/815882b5-6b84-49b6-a03e-9ca765fdb46a)"/>
       </p>
 
      + Tratified Sampling
+       ```python
+       Accuracy: 98.81
+       Average Recall: 98.71
+       Average Precision: 99.56
+       F1 Score: 99.13
+       ```
+       
+       ```python
+       Accuracy: 49.40
+       Average Recall: 36.81
+       Average Precision: 34.98
+       F1 Score: 35.87
+       ```
        <p align="center">
            <img src="https://github.com/RimTouny/Image-Classification-using-Chars74K-dataset/assets/48333870/cbeb2c90-d1b9-4a1c-917d-8a8ed5af09ce"/>
       </p>
